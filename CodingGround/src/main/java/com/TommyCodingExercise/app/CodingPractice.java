@@ -1,7 +1,7 @@
-package com.TommyCodingExercise.app;
+package com.tommycodingexercise.app;
 
 import java.util.LinkedList;
-import java.util.List;
+import com.tommycodingexercise.model.MyLinkedList;
 
 public class CodingPractice {
   public static void main(String[] args) {
@@ -36,5 +36,22 @@ public class CodingPractice {
     for(String str : strings) {
       System.out.println(str + " ");
     }
+
+    MyLinkedList myLinkedList = new MyLinkedList();
+
+    myLinkedList.add(0);
+    myLinkedList.add(2);
+    myLinkedList.add(4);
+    myLinkedList.add(2);
+    myLinkedList.add(4);
+    myLinkedList.add(5);
+    myLinkedList.add(4);
+    
+    myLinkedList.deleteNode(2);
+    myLinkedList.deleteNode(0);
+    myLinkedList.deleteNode(5);
+
+    System.out.println(myLinkedList.toString());
+    
   }
 }
