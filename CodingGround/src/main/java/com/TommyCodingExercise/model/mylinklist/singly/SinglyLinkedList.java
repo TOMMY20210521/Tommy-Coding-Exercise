@@ -1,16 +1,16 @@
-package com.tommycodingexercise.model;
+package com.tommycodingexercise.model.mylinklist.singly;
 
-public class MyLinkedList {
+public class SinglyLinkedList {
   Node head;
 
   /*
    * delete node that have data equal to key
   */
-  public void deleteNode(int key) {
-    if(this.head==null) return;
+  public SinglyLinkedList deleteNode(int key) {
+    if(this.head==null) return this;
     if(head.getData()==key) {
       head = head.getNext();
-      return;
+      return this;
     }
 
     Node temp = head;
@@ -21,21 +21,23 @@ public class MyLinkedList {
       temp = temp.getNext();
     }
 
-    if(temp==null) return;
+    if(temp==null) return this;
 
     prev.setNext(temp.getNext());
+
+    return this;
     
   }
 
   /*
    * add node to the end of the list
    */
-  public void add(int data) {
+  public SinglyLinkedList add(int data) {
     Node temp = head;
 
     if(temp==null) {
       this.head = new Node(data);
-      return;
+      return this;
     }
 
     while(temp.getNext()!=null) {
@@ -43,6 +45,15 @@ public class MyLinkedList {
     }
 
     temp.setNext(new Node(data));
+
+    return this;
+  }
+
+  public SinglyLinkedList push(int data) {
+    Node newHead = new Node(data);
+    newHead.setNext(head);
+    head = newHead;
+    return this;
   }
 
   @Override

@@ -1,10 +1,10 @@
-package com.tommycodingexercise.model;
+package com.tommycodingexercise.model.mylinklist.singly;
 
 public class Node {
-  int data;
+  private int data;
   private Node next;
 
-  Node(int d) {
+  public Node(int d) {
     data = d;
     next = null;
   }

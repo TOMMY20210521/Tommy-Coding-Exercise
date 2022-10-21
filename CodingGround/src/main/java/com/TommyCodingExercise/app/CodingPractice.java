@@ -1,7 +1,8 @@
 package com.tommycodingexercise.app;
 
 import java.util.LinkedList;
-import com.tommycodingexercise.model.MyLinkedList;
+import com.tommycodingexercise.model.mylinklist.doubly.DoublyLinkedList;
+import com.tommycodingexercise.model.mylinklist.singly.SinglyLinkedList;
 
 public class CodingPractice {
   public static void main(String[] args) {
@@ -37,21 +38,43 @@ public class CodingPractice {
       System.out.println(str + " ");
     }
 
-    MyLinkedList myLinkedList = new MyLinkedList();
+    SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
 
-    myLinkedList.add(0);
-    myLinkedList.add(2);
-    myLinkedList.add(4);
-    myLinkedList.add(2);
-    myLinkedList.add(4);
-    myLinkedList.add(5);
-    myLinkedList.add(4);
+    singlyLinkedList.add(0);
+    singlyLinkedList.add(2).add(3);
+    singlyLinkedList.add(4);
+    singlyLinkedList.add(2);
+    singlyLinkedList.add(4);
+    singlyLinkedList.add(5);
+    singlyLinkedList.add(4);
+    singlyLinkedList.push(0);
+    singlyLinkedList.push(3);
+    singlyLinkedList.push(2);
     
-    myLinkedList.deleteNode(2);
-    myLinkedList.deleteNode(0);
-    myLinkedList.deleteNode(5);
+    singlyLinkedList.deleteNode(2).deleteNode(0);
+    singlyLinkedList.deleteNode(0);
+    singlyLinkedList.deleteNode(5);
 
-    System.out.println(myLinkedList.toString());
+    System.out.println(singlyLinkedList.toString());
+
+    DoublyLinkedList doublyLinkedList = new DoublyLinkedList();
+
+    doublyLinkedList.add(4);
+    // doublyLinkedList.add(2);
+    // doublyLinkedList.add(4);
+    // doublyLinkedList.add(2);
+    // doublyLinkedList.add(3);
+    // doublyLinkedList.add(5);
+    // doublyLinkedList.add(7);
+    // doublyLinkedList.push(10);
+    // doublyLinkedList.push(23);
+    // doublyLinkedList.push(5);
+    
+    // doublyLinkedList.deleteNode(2);
+    // doublyLinkedList.deleteNode(0);
+    // doublyLinkedList.deleteNode(5);
+
+    System.out.println(doublyLinkedList.toString());
     
   }
 }
