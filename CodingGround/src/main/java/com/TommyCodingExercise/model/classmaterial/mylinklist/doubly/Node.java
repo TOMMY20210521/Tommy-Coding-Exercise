@@ -1,4 +1,4 @@
-package com.tommycodingexercise.model.mylinklist.doubly;
+package com.tommycodingexercise.model.classmaterial.mylinklist.doubly;
 
 public class Node {
   private int data;

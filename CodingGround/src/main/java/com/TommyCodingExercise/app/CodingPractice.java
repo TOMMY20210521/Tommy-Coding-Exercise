@@ -1,8 +1,10 @@
 package com.tommycodingexercise.app;
 
+import java.util.HashSet;
 import java.util.LinkedList;
-import com.tommycodingexercise.model.mylinklist.doubly.DoublyLinkedList;
-import com.tommycodingexercise.model.mylinklist.singly.SinglyLinkedList;
+import java.util.Set;
+import com.tommycodingexercise.model.classmaterial.mylinklist.doubly.DoublyLinkedList;
+import com.tommycodingexercise.model.classmaterial.mylinklist.singly.SinglyLinkedList;
 
 public class CodingPractice {
   public static void main(String[] args) {
@@ -75,6 +77,12 @@ public class CodingPractice {
     // doublyLinkedList.deleteNode(5);
 
     System.out.println(doublyLinkedList.toString());
-    
+
+    Set<Integer> integers = new HashSet<>();
+    integers.add(100);
+    integers.add(5);
+    integers.add(200);
+    integers.add(100);
+    System.out.println(integers);    
   }
 }
