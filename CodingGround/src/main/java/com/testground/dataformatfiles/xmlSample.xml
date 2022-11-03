@@ -1,0 +1,15 @@
+<xml>
+  <html>
+    hello world
+  </html>
+  <customers>
+    <customer>
+      <name>John</name>
+      <phone>123456</phone>
+    </customer>
+    <customer>
+      <name>John</name>
+      <phone>123456</phone>
+    </customer>
+  </customers>
+</xml>
