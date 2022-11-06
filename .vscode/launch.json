@@ -1,0 +1,196 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch AddBinary",
+      "request": "launch",
+      "mainClass": "com.questions.addbinary.attempt1.app.AddBinary",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch AddBinary(1)",
+      "request": "launch",
+      "mainClass": "com.questions.addbinary.attempt2.app.AddBinary",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch Anagrams",
+      "request": "launch",
+      "mainClass": "com.questions.anagrams.app.Anagrams",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch BranchSum",
+      "request": "launch",
+      "mainClass": "com.questions.binarytree.branchsum.attempt1.app.BranchSum",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch DepthFirstSearch",
+      "request": "launch",
+      "mainClass": "com.questions.binarytree.depthfirstsearch.attempt1.app.DepthFirstSearch",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch FindClosestValueInBST",
+      "request": "launch",
+      "mainClass": "com.questions.binarytree.findclosestvalueinBST.attempt1.app.FindClosestValueInBST",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch NodeDepths",
+      "request": "launch",
+      "mainClass": "com.questions.binarytree.nodedepths.attempt1.app.NodeDepths",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch ContainsDuplicate",
+      "request": "launch",
+      "mainClass": "com.questions.containsduplicate.app.ContainsDuplicate",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch ContainsNearbyDuplicate",
+      "request": "launch",
+      "mainClass": "com.questions.containsnearbyduplicates.app.ContainsNearbyDuplicate",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch GenerateParentheses",
+      "request": "launch",
+      "mainClass": "com.questions.generateparentheses.attemp1.app.GenerateParentheses",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch GenerateParenthese",
+      "request": "launch",
+      "mainClass": "com.questions.generateparentheses.attemp2.app.GenerateParenthese",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch LengthOfLastWord",
+      "request": "launch",
+      "mainClass": "com.questions.lengthoflastword.app.LengthOfLastWord",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch MergeTwoSortedLists",
+      "request": "launch",
+      "mainClass": "com.questions.mergetwosortedlist.app.MergeTwoSortedLists",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch NonConstructableChange",
+      "request": "launch",
+      "mainClass": "com.questions.nonconstructablechange.attempt1.app.NonConstructableChange",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch NonConstructableChange(1)",
+      "request": "launch",
+      "mainClass": "com.questions.nonconstructablechange.attempt2.app.NonConstructableChange",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch PascalsTriangle",
+      "request": "launch",
+      "mainClass": "com.questions.pascalstriangle.attemp1.app.PascalsTriangle",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch PlusOne",
+      "request": "launch",
+      "mainClass": "com.questions.plusone.app.PlusOne",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch PowerOfThree",
+      "request": "launch",
+      "mainClass": "com.questions.powerofthree.attempt1.app.PowerOfThree",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch SortedSquaredArray",
+      "request": "launch",
+      "mainClass": "com.questions.sortedsquarearray.attemp2.app.SortedSquaredArray",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch SortedSquaredArray(1)",
+      "request": "launch",
+      "mainClass": "com.questions.sortedsquarearray.attempt1.app.SortedSquaredArray",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch InsertionSort",
+      "request": "launch",
+      "mainClass": "com.questions.sorting.insertionsort.attempt1.app.InsertionSort",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch TornamentWinner",
+      "request": "launch",
+      "mainClass": "com.questions.tournamentwinner.attempt1.app.TornamentWinner",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch ValidateSubsequence",
+      "request": "launch",
+      "mainClass": "com.questions.validatesubsequence.app.ValidateSubsequence",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch Q1",
+      "request": "launch",
+      "mainClass": "com.quiz.quiz2.q1.Q1",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch TestAdventurer",
+      "request": "launch",
+      "mainClass": "com.testground.adventurer.app.TestAdventurer",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    },
+    {
+      "type": "java",
+      "name": "Launch CodingPractice",
+      "request": "launch",
+      "mainClass": "com.tommycodingexercise.app.CodingPractice",
+      "projectName": "Tommy-Coding-Exercise_e5234715"
+    }
+  ]
+}

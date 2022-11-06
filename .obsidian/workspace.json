@@ -1,0 +1,138 @@
+{
+  "main": {
+    "id": "d3ea6788f6ebdd2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "06c2e8cfee8ac9f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb14469b1eef6edc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7882dc9938849e38",
+    "type": "split",
+    "children": [
+      {
+        "id": "442df9bb8e73529f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a5e8a3362b3bddd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "20a522a98f8ebba3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "529bb5df1b74c955",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "890e2a3c2860b02e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f26be9c9d80b67fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29bd5e9e106625b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "34d00c9cf61fa979",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "02292c482c54a0b1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b2efdbb25be1dc17",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "cb14469b1eef6edc",
+  "lastOpenFiles": [
+    "CodingGround/src/main/java/com/questions/binarytree/branchsum/README.md",
+    "CodingGround/src/main/java/com/questions/binarytree/README.md",
+    "CodingGround/src/main/java/com/questions/README.md",
+    "Readme.md"
+  ]
+}

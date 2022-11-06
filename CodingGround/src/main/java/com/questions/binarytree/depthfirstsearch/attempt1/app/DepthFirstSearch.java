@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Solution {
-  private Solution() {}
-
   // Do not edit the class below except
   // for the depthFirstSearch method.
   // Feel free to add new properties
@@ -20,11 +18,10 @@ class Solution {
 
     public List<String> depthFirstSearch(List<String> array) {
       // Write your code here.
-
+      array.add(name);
       for(Node n: this.children) {
-        depthFirstSearch(array);
+        n.depthFirstSearch(array);
       }
-
       return array;
     }
 

@@ -1,4 +1,6 @@
-# Coding Exercise
-> Language : Java
+# Coding Journey
 
-This place store all attemps on coding exercises from Leetcode/Hackarank/....
+| This includes all the code testing and exercise I attempted during my learning process
+
+### [Exercise]
+[]
