@@ -14,7 +14,7 @@ class Solution {
     for(int i=1 ; i<redShirtHeights.size() ; i++) {
       int newDirection = redShirtHeights.get(i).compareTo(blueShirtHeights.get(i));
       System.out.println(direction + " " + newDirection);
-      if(direction==0 || newDirection==0 && direction!=newDirection) return false;
+      if(direction==0 || newDirection==0 || direction!=newDirection) return false;
       direction = newDirection;
     }
 
