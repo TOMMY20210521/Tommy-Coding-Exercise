@@ -1,6 +1,6 @@
-package com.testground.adventurer.interfaces;
+package testground.adventurer.interfaces;
 
-import com.testground.adventurer.models.adventurers.Adventurer;
+import testground.adventurer.models.adventurers.Adventurer;
 
 public interface AdventurerFactory {
   public static Adventurer trainAdventurer() {

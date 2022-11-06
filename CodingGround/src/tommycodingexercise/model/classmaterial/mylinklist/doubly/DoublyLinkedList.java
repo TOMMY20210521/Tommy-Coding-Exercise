@@ -1,4 +1,4 @@
-package com.tommycodingexercise.model.classmaterial.mylinklist.doubly;
+package tommycodingexercise.model.classmaterial.mylinklist.doubly;
 
 public class DoublyLinkedList {
   Node head;

@@ -1,4 +1,4 @@
-package com.questions.sorting.insertionsort.attempt1.app;
+package questions.sorting.insertionsort.attempt1.app;
 
 import java.util.Arrays;
 

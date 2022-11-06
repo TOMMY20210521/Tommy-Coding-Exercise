@@ -1,4 +1,4 @@
-package com.questions.minimumwaitingtime.attempt1.app;
+package questions.minimumwaitingtime.attempt1.app;
 
 import java.util.Arrays;
 

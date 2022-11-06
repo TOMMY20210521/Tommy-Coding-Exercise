@@ -1,4 +1,4 @@
-package com.questions.pascalstriangle.attemp1.app;
+package questions.pascalstriangle.attemp1.app;
 
 // class Solution {
 //   public static 

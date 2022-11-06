@@ -1,4 +1,4 @@
-package com.questions.generateparentheses.attemp2.app;
+package questions.generateparentheses.attemp2.app;
 
 import java.util.ArrayList;
 import java.util.Arrays;

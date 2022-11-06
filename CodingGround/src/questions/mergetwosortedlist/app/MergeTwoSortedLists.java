@@ -1,4 +1,4 @@
-package com.questions.mergetwosortedlist.app;
+package questions.mergetwosortedlist.app;
 
 class ListNode {
     int val;

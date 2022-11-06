@@ -1,4 +1,4 @@
-package com.questions.validatesubsequence.app;
+package questions.validatesubsequence.app;
 
 import java.util.ArrayList;
 import java.util.Arrays;

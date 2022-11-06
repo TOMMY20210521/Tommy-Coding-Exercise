@@ -1,4 +1,4 @@
-package com.questions.tournamentwinner.attempt1.app;
+package questions.tournamentwinner.attempt1.app;
 
 import java.util.ArrayList;
 import java.util.Arrays;

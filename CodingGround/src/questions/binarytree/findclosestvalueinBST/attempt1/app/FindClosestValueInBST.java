@@ -1,4 +1,4 @@
-package com.questions.binarytree.findclosestvalueinBST.attempt1.app;
+package questions.binarytree.findclosestvalueinBST.attempt1.app;
 
 class Solution {
   public static int findClosestValueInBst(BST tree, int target) {

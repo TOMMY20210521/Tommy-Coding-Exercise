@@ -1,4 +1,4 @@
-package com.testground.classes.enums;
+package testground.classes.enums;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

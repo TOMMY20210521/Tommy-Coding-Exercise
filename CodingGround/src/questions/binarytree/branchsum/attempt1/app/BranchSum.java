@@ -1,4 +1,4 @@
-package com.questions.binarytree.branchsum.attempt1.app;
+package questions.binarytree.branchsum.attempt1.app;
 
 import java.util.ArrayList;
 import java.util.List;

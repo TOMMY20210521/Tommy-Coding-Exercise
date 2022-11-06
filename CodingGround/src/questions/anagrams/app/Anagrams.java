@@ -1,4 +1,4 @@
-package com.questions.anagrams.app;
+package questions.anagrams.app;
 
 public class Anagrams {
 

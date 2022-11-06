@@ -1,4 +1,4 @@
-package com.questions.addbinary.attempt1.app;
+package questions.addbinary.attempt1.app;
 
 class Solution {
   public static String addBinary(String a, String b) {

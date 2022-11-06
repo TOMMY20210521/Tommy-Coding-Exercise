@@ -1,4 +1,4 @@
-package com.quiz.quiz2.q15;
+package quiz.quiz2.q15;
 
 import java.util.Optional;
 

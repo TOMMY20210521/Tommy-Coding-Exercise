@@ -1,4 +1,4 @@
-package com.questions.lengthoflastword.app;
+package questions.lengthoflastword.app;
 
 class Solution {
   public int lengthOfLastWord(String s) {

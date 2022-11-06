@@ -1,4 +1,4 @@
-package com.questions.nonconstructablechange.attempt1.app;
+package questions.nonconstructablechange.attempt1.app;
 
 import java.net.CookieHandler;
 import java.util.ArrayList;

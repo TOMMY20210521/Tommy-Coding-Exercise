@@ -1,4 +1,4 @@
-package com.questions.classphoto.attempt1.app;
+package questions.classphoto.attempt1.app;
 
 import java.util.ArrayList;
 import java.util.Arrays;

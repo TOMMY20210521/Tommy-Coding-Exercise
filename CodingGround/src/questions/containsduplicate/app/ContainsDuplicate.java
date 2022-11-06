@@ -1,4 +1,4 @@
-package com.questions.containsduplicate.app;
+package questions.containsduplicate.app;
 
 import java.util.Arrays;
 

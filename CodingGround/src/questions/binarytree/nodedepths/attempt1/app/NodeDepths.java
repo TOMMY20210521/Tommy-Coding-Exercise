@@ -1,4 +1,4 @@
-package com.questions.binarytree.nodedepths.attempt1.app;
+package questions.binarytree.nodedepths.attempt1.app;
 
 class Solution {
 

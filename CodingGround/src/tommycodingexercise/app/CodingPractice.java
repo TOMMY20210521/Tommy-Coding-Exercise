@@ -1,10 +1,10 @@
-package com.tommycodingexercise.app;
+package tommycodingexercise.app;
 
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Set;
-import com.tommycodingexercise.model.classmaterial.mylinklist.doubly.DoublyLinkedList;
-import com.tommycodingexercise.model.classmaterial.mylinklist.singly.SinglyLinkedList;
+import tommycodingexercise.model.classmaterial.mylinklist.doubly.DoublyLinkedList;
+import tommycodingexercise.model.classmaterial.mylinklist.singly.SinglyLinkedList;
 
 public class CodingPractice {
   public static void main(String[] args) {

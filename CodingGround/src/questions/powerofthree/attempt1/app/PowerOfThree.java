@@ -1,4 +1,4 @@
-package com.questions.powerofthree.attempt1.app;
+package questions.powerofthree.attempt1.app;
 
 class Solution {
   

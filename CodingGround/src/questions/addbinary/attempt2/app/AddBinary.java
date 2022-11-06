@@ -1,4 +1,4 @@
-package com.questions.addbinary.attempt2.app;
+package questions.addbinary.attempt2.app;
 
 import java.util.ArrayList;
 import java.util.Arrays;

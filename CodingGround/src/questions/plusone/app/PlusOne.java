@@ -1,4 +1,4 @@
-package com.questions.plusone.app;
+package questions.plusone.app;
 
 import java.util.Arrays;
 

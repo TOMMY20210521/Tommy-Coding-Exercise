@@ -1,4 +1,4 @@
-package com.questions.nonconstructablechange.attempt2.app;
+package questions.nonconstructablechange.attempt2.app;
 
 import java.util.Arrays;
 

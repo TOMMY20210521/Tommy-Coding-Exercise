@@ -1,4 +1,4 @@
-package com.questions.containsnearbyduplicates.app;
+package questions.containsnearbyduplicates.app;
 
 import java.util.ArrayList;
 import java.util.Arrays;

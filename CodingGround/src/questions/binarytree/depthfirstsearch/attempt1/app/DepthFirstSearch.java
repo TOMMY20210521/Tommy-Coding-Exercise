@@ -1,4 +1,4 @@
-package com.questions.binarytree.depthfirstsearch.attempt1.app;
+package questions.binarytree.depthfirstsearch.attempt1.app;
 
 import java.util.ArrayList;
 import java.util.List;

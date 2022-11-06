@@ -1,4 +1,4 @@
-package com.questions.sortedsquarearray.attemp2.app;
+package questions.sortedsquarearray.attemp2.app;
 
 import java.util.Arrays;
 
