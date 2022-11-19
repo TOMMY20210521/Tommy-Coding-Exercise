@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../TestingGround/Post"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"post/src/main/java"
+		],
+		"java.project.outputPath": "bin",
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar"
+		]
+	}
+}
