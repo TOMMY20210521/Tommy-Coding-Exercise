@@ -1,0 +1,13 @@
+server:
+  port: 8100
+
+coingecko-api:
+  base-url: https://api.coingecko.com/api
+  version: v3
+  path-url: coins/markets
+  attributes:
+    currency: Usd
+    order: market_cap_desc
+    per_page: 100
+    page: 1
+    sparkline: false
