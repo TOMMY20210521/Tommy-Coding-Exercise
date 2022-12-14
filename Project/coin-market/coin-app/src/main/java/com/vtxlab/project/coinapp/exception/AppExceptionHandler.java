@@ -21,7 +21,7 @@ public class AppExceptionHandler {
 		
 		ResponseEntity<ApiResponse<Object>> responseEntity = ResponseEntity.badRequest().body(apiResponse);
 
-		return responseEntity;
+		return null;
 	}
 	
 }

@@ -70,4 +70,18 @@ public class CoinMarketController implements CoinMarketOperation {
 		
 		return responseEntity;
 	}
+	
+	@Override
+	public ResponseEntity<ApiResponse<String>> postDiscordMessage() {
+		
+		
+		
+		return ResponseEntity.ok().body(
+			ApiResponse.<String>builder()
+				.code(ResponseCode.OK.getCode())
+				.message(ResponseCode.OK.getMessage())
+				.message("Success")
+				.build()
+		);
+	}
 }

@@ -22,4 +22,7 @@ public interface CoinMarketOperation {
 	@GetMapping("/coin/market3")
 	ResponseEntity<CoinData[]> getCoinMarketData3() throws JsonProcessingException;
 	
+	@GetMapping("/discord/chat")
+	ResponseEntity<ApiResponse<String>> postDiscordMessage();
+	
 }
